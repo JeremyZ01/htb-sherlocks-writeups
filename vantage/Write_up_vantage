@@ -1,0 +1,92 @@
+# Vantage — HTB Sherlock Writeup
+
+**Catégorie** : DFIR 
+**Difficulté** : Very Easy 
+**Date de résolution** :  
+**Statut HTB** : Retired ✅
+
+---
+
+## Contexte
+
+A small company moved some of its resources to a private cloud installation. The developers left the redirect to the dashboard on their web server. The security team got an email from the alleged attacker stating that the user data was leaked. It is up to you to investigate the situation.
+
+---
+
+## Artefacts fournis
+
+<!-- Liste les fichiers fournis dans le ZIP du Sherlock -->
+
+- `controller.2025-07-01.pcap`
+- `web-server.2025-07-01.pcap` 
+
+---
+
+## Outils utilisés
+
+<!-- Liste rapide des outils que tu as utilisés -->
+
+- Wireshark
+- Eric Zimmerman Tools (Timeline Explorer, etc.)
+- python-evtx
+- grep / jq
+- ...
+
+---
+
+## Investigation
+
+### Étape 1 — Analyse des Fichiers 
+
+
+
+```bash
+wireshark controller.2025-07-01.pcap
+wireshark web-server.2025-07-01.pcap
+```
+
+
+---
+
+### Étape 2 — [Titre]
+
+<!-- Idem -->
+
+---
+
+### Étape 3 — [Titre]
+
+<!-- Continue jusqu'à avoir répondu à toutes les questions -->
+
+---
+
+## Réponses aux questions
+
+| # | Question | Réponse |
+|---|----------|---------|
+| 1 | ... | ... |
+| 2 | ... | ... |
+| 3 | ... | ... |
+
+---
+
+## Mapping MITRE ATT&CK
+
+<!-- Relie ce que tu as observé à des techniques ATT&CK -->
+
+| Technique | ID | Description |
+|-----------|-----|-------------|
+| Brute Force | T1110 | Tentatives de connexion multiples échouées observées dans auth.log |
+| ... | ... | ... |
+
+---
+
+## Conclusion
+
+<!-- 3-5 phrases qui résument : ce qui s'est passé, comment c'a été détecté, et ce qu'un analyste SOC aurait dû faire en réponse. C'est la partie que tu récites en entretien. -->
+
+---
+
+## Ce que j'ai appris
+
+<!-- Optionnel mais utile pour toi : ce que ce Sherlock t'a apporté, un outil découvert, une technique que tu ne connaissais pas. -->
